@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Predicted Class: {{ result.class_name }}</h1>
+    <a href = "{{ url_for('index') }}" class="btn btn-default">Go Back</a>
+</div>
+{% endblock %}
